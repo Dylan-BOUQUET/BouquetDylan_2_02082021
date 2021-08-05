@@ -50,7 +50,12 @@ ul {
 img {
 max-width: 100%;
 height: 135px;
+display: flex;
+flex-flow: row nowrap;
 flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 

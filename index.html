@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+        <a href=""><img src="images/logo/Reservia@3x.png" eight="100px" width="100px"></a>
+        <li><a href="#home">S'inscrire</a></li>
+        <li><a href="#news">Activités</a></li>
+        <li><a href="#contact">Hébergements</a></li>
+    </ul>
+
+    <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+    <h6>En plein centre ville ou en pleine nature</h6>
+    <input id="srchbar" type="search" placeholder="Marseille, France">
+    <button class="search" aria-placeholder="Rechercher">Rechercher</button>
+
+
+    <div class="controls">
+        <h3><label>Filtres:</label></h3>
+        
+        <button class="filter" data-filter=".category-1">Economique</button>
+        <button class="filter" data-filter=".category-2">Famillial</button>
+        <button class="filter" data-filter=".category-3">Romantique</button>
+        <button class="filter" data-filter=".category-4">Animaux Autorisés</button>
+        
+        <button onclick="$('#Container').mixItUp('filter','')">Effacer les filtres</button>
+      </div>
+      <div id="Container" class="container">
+        <div class="fail-message"><span></span></div>
+        
+        <div class="mix category-1 category-2"></div>
+        <div class="mix category-2"></div>
+        <div class="mix category-1 category-2"></div>
+        <div class="mix category-1 category-3"></div>
+        <div class="mix category-3"></div>
+        <div class="mix category-1 category-4"></div>
+        <div class="mix category-4"></div>
+        
+        <div class="gap"></div>
+        <div class="gap"></div>
+      </div>
+      
+
+      <div class="row">
+        <div class="column left">
+            <h2>Hébergements </h2>
+            <p>
+                <img src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
+                <img src="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+                <img src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+                <img src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
+                <img src="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+                <img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
+                <div id="my-menu">
+                    <!-- Le label -->
+                    <label for="toggle-block"> Afficher Plus</label>
+                
+                    <!-- La checkbox que je choisis cochée au démarrage -->
+                    <input id="toggle-block" name="toggle-block" type="checkbox" unchecked />
+                 
+                    <!-- Le bloc à afficher -->
+                    <div id="my-block"> <img src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+                                        <img src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
+                                    <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
+                    </div>
+               </div>
+            </p>
+
+
+
+        </div>
+
+
+
+        <div class="column middle">
+            <h2> Les plus populaires </h2>
+            <p>
+                <img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+                <img src="images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+                <img src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+            </p>
+        </div>
+
+        <div class="column right">
+            <h2> Activités </h2>
+            <p>
+                <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
+                <img src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
+                <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
+                <img src="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
+                <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
+                <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
+            </p>
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+  }
+  #logos {
+      float: left;
+  }
+
+/* ..............*/
+ 
+/* le bloc n'est pas visible lorsque la checkbox n'est pas cochée */
+#my-block{
+    max-height: 0px;
+    opacity: 0;
+    line-height:100px;
+    border: 1px dotted #fff;
+    margin:2px;
+    transition: all 1s;
+}
+ 
+/* le bloc est visible lorsque la checkbox est cochée */
+#toggle-block:checked + #my-block{
+    max-height: 300px;
+    opacity: 1;
+    transition: all 1s;
+}
+
+
+{
+    box-sizing: border-box;
+}
+/* Set additional styling options for the columns */
+.column {
+float:left
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+width: 80%;
+border-radius: 3%;
+background-color: rgb(245,245,245);
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+.middle {
+width: 20%;
+border-radius: 3%;
+background-color: rgb(245,245,245);
+
+}
+
+.right {
+    width: 100%;
+    border-radius: 3%;
+    background-color: rgb(245,245,245);
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+img {
+    height: auto;
+	max-width: 200px;
+}

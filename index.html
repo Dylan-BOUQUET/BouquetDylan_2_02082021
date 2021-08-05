@@ -23,16 +23,27 @@
 
     <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
     <h6>En plein centre ville ou en pleine nature</h6>
+    <div class="bordureSearch flexCentre">
+    <div class="backGris flexCentre iconSize">
+        <i class="fas fa-map-marker-alt"></i>
+    </div>
     <input id="srchbar" type="search" placeholder="Marseille, France">
-    <button class="search" aria-placeholder="Rechercher">Rechercher</button>
+    <div class="backBleu flexCentre buttonSearch">Rechercher</div>
 
 
     <div class="controls">
         <h3><label>Filtres:</label></h3>
-        
+
+        <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
         <button class="filter" data-filter=".category-1">Economique</button>
+
+        <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
         <button class="filter" data-filter=".category-2">Famillial</button>
+
+        <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
         <button class="filter" data-filter=".category-3">Romantique</button>
+
+        <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
         <button class="filter" data-filter=".category-4">Animaux Autorisés</button>
         
         <button onclick="$('#Container').mixItUp('filter','')">Effacer les filtres</button>
@@ -52,6 +63,12 @@
         <div class="gap"></div>
       </div>
       
+      <div class="info">
+        <div class="parentIcon flexCentre">
+          <i class="fas fa-info fa-xs colorBleu"></i>
+        </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
 
  
 

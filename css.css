@@ -1,7 +1,9 @@
-html,
-body {
+
+
+html, body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
+
 .flexCentre {
   display: flex;
   justify-content: center;
@@ -157,7 +159,7 @@ ul {
 
 
 .bordureSearch {
-    width: 400px;
+    width: 350px;
     border-radius: 10px;
     border: 0.5px solid #f2f2f2;
   }
@@ -497,4 +499,3 @@ ul {
       padding: 5%;
     }
   }
-  

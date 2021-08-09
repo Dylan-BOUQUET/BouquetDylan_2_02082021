@@ -13,9 +13,8 @@ html, body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: auto;
-  height: auto;
 }
+
 
 
 .flexBetween {

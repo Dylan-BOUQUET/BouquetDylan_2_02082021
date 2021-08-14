@@ -20,7 +20,6 @@ html, body {
 .flexBetween {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .flexColumnCentre {
@@ -377,7 +376,7 @@ ul {
  
 
   .cubeActivites {
-    width: 23%;
+    width: 30%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
   }
@@ -400,7 +399,7 @@ ul {
   
 
   .hauteurTitre {
-    height: 70px;
+    height: 100px;
   }
 
   .titreActivites {

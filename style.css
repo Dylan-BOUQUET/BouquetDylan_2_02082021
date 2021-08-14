@@ -208,6 +208,7 @@ ul {
 
 
 .sizeHebergements {
+    order: 2;
     flex: 2;
     height: 650px;
     margin-right: 20px;

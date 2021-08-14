@@ -36,7 +36,7 @@
     }
 
     #hebergements {
-      flex-direction: column-reverse;
+      flex-direction: column;
       width: 100%;
     }
 
@@ -48,7 +48,7 @@
     }
 
     .blocHebergements {
-      flex: none;
+      
       width: 90%;
       margin-right: 0;
       padding: 5%;

@@ -38,6 +38,7 @@
     }
 
     .blocPopulaires {
+      order: 1;
       flex: none;
       width: 90%;
       margin-left: 0;
@@ -45,6 +46,7 @@
     }
 
     .blocHebergements {
+      order: 2;
       width: 90%;
       margin-right: 0;
       padding: 5%;

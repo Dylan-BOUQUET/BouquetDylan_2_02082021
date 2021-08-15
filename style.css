@@ -73,33 +73,36 @@ html, body {
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color:white;
-  }
 
-  #logos {
-      float: left;
-  }
+.sizeNav {
+  height: 100px;
+}
+.sizeLiens {
+  width: 100%;
+}
+.sizeLien12 {
+  margin-left: 60%;
+}
+.sizeLien {
+  width: 140px;
+  height: 99px;
+}
+.colorLien2 {
+  color: black;
+}
+.bordureNav {
+  border-top: 1px solid transparent;
+}
+.bordureNav:hover {
+  border-top: 1px solid #0065fc;
+  cursor: pointer;
+}
+.bordureNav:hover > a {
+  color: #0065fc;
+}
+.marglogo {
+  margin-bottom: 7px;
+}
 
 
 .margFiltre {

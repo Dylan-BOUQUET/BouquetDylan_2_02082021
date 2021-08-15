@@ -1,10 +1,10 @@
 @media only screen and (max-width: 600px) {
+  
+  .sizeNav {
+    width: 30px;
+  }
 
-    .sizeLien12 {
-      margin-left: 35%;
-    }
-
-    .bloc1 {
+      .bloc1 {
       display: flex;
       flex-direction: column;
     }
@@ -76,6 +76,7 @@
       width: 90%;
       margin-right: 0;
       padding: 5%;
+      background-color: white;
     }
 
 

@@ -1,4 +1,5 @@
 html, body {
+  padding: 1em;
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
@@ -9,7 +10,9 @@ header {
 }
 
 .menu{
-grid-area: top;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .MenuItem{
@@ -164,6 +167,7 @@ padding-left: 45px;
   width: 320px;
   border-radius: 10px;
   border: 0.5px solid #f2f2f2;
+  padding: 1em;
 }
 
 .paddingSearch {
@@ -182,6 +186,7 @@ padding-left: 45px;
   height: 50px;
   width: 50px;
   border-radius: 10px 0 0 10px;
+  padding: 1em;
 }
 
 .buttonSearch {

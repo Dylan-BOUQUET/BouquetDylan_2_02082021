@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   align-items: center;
+  font-weight: 600;
 }
 
 .menu {
@@ -31,12 +32,12 @@ padding-right: 4em;
 
 .MenuItem:hover{
 border-color: #0065FC;
-color:  #0065FC;
+/*color:  #0065FC;*/
 }
 
 .MenuItem1:hover{
   border-color: #0065FC;
-  color:  #0065FC;
+  /*color:  #0065FC;*/
   }
 
 #RegistrationLink{
@@ -49,6 +50,10 @@ padding-top:53px;
 
 .logo{
 padding-left: 45px; 
+}
+
+.h3 {
+  padding-top: 1em;
 }
 
 .flexCentre {
@@ -107,10 +112,6 @@ padding-left: 45px;
 
 .backBleu {
   background-color: #0065fc;
-}
-
-.backBleuClair {
-  background-color: #deebff;
 }
 
 .backGris {

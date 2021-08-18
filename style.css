@@ -3,6 +3,10 @@ html, body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  padding-top: 80px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -50,10 +54,6 @@ padding-top:53px;
 
 .logo{
 padding-left: 45px; 
-}
-
-.h3 {
-  padding-top: 80px;
 }
 
 .flexCentre {

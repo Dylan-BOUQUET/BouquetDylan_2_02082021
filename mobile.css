@@ -13,6 +13,7 @@
                     "bottom  bottom" 40px;
     align-items: center;
     justify-items: center;
+    font-family: 'Raleway';
     } 
 
     .logo {
@@ -185,7 +186,7 @@
 
   .footer {
     display: flex;
-    margin-top: 290%;
+    margin-top: 350%;
     background: #f2f2f2;
     color: rgb(5, 5, 5);
     padding: 10%;

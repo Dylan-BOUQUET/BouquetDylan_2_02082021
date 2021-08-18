@@ -11,7 +11,7 @@ header {
 
 .menu{
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0.9;
   justify-content: flex-end;
 }
 
@@ -166,7 +166,6 @@ padding-left: 45px;
 .bordureSearch {
   width: 320px;
   border-radius: 10px;
-  border: 0.5px solid #f2f2f2;
   padding: 1em;
 }
 

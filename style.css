@@ -3,6 +3,39 @@ html, body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu{
+grid-area: top;
+}
+
+.MenuItem{
+padding-top: 50px;
+border-bottom: none;
+border-top: #F2F2F2 3px solid;
+}
+
+.MenuItem:hover{
+border-color: #0065FC;
+color:  #0065FC;
+}
+
+#RegistrationLink{
+padding-right: 10px;
+}
+
+.registration{
+padding-top:53px;  
+}
+
+.logo{
+padding-left: 45px; 
+}
+
 .flexCentre {
   display: flex;
   justify-content: center;
@@ -71,39 +104,6 @@ html, body {
 .backGris {
   background-color: #f2f2f2;
 }
-
-
-
-.sizeNav {
-  height: 100px;
-}
-.sizeLiens {
-  width: 100%;
-}
-.sizeLien12 {
-  margin-left: 60%;
-}
-.sizeLien {
-  width: 140px;
-  height: 99px;
-}
-.colorLien2 {
-  color: black;
-}
-.bordureNav {
-  border-top: 1px solid transparent;
-}
-.bordureNav:hover {
-  border-top: 1px solid #0065fc;
-  cursor: pointer;
-}
-.bordureNav:hover > a {
-  color: #0065fc;
-}
-.marglogo {
-  margin-bottom: 7px;
-}
-
 
 .margFiltre {
     margin-top: 50px;

@@ -1,8 +1,56 @@
 @media only screen and (max-width: 600px) {
   
-  .sizeNav {
-    width: 30px;
-  }
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    header{ 
+    width: 100%;
+    display: grid;
+    font-weight: bolder;
+    grid-template: "topLeft  topRight" 120px
+                    "bottom  bottom" 40px;
+    align-items: center;
+    justify-items: center;
+    } 
+
+    .logo {
+    grid-area: topLeft;
+    padding-left: 20px;
+    padding-top: 30px;
+    }
+    
+    .menu {
+    grid-area: bottom;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .MenuItem {
+    width: 100%;
+    color: black;
+    border-bottom: #F2F2F2 3px solid;
+    }
+
+    .MenuItem:hover {
+    border-color: #0065FC;
+    color:  #0065FC;
+    }
+
+    .registration {
+    grid-area: topRight;
+    padding: 50px 30px 0 0;
+    text-align: right;
+    }
+
+    #RegistrationLink {
+    color: #0065FC;
+    font-weight: bolder;
+    }
+
 
       .bloc1 {
       display: flex;

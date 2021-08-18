@@ -7,24 +7,37 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  align-items: center;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-grow: 0.9;
   justify-content: flex-end;
 }
 
-.MenuItem{
+.MenuItem {
 padding-top: 50px;
 border-bottom: none;
 border-top: #F2F2F2 3px solid;
+padding-right: 4em;
 }
+
+.MenuItem1 {
+  padding-top: 50px;
+  border-bottom: none;
+  border-top: #F2F2F2 3px solid;
+  }
 
 .MenuItem:hover{
 border-color: #0065FC;
 color:  #0065FC;
 }
+
+.MenuItem1:hover{
+  border-color: #0065FC;
+  color:  #0065FC;
+  }
 
 #RegistrationLink{
 padding-right: 10px;

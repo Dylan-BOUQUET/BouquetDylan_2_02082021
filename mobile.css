@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
-  
+    h3 {
+      padding-top: 10%;
+    }
+
     a {
     text-decoration: none;
     color: black;

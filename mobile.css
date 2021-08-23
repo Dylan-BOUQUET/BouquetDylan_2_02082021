@@ -34,6 +34,7 @@
     }
 
     .MenuItem {
+    border-top: white;
     width: 100%;
     color: black;
     border-bottom: #F2F2F2 3px solid;

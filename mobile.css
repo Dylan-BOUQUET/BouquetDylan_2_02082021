@@ -1,7 +1,7 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   
     .titre1 {
-      padding-top: 30%;
+      padding-top: 3em;
     }
 
     a {
@@ -103,6 +103,8 @@
 
 
     .mobileFiltreWrap {
+      flex-wrap: wrap;
+      flex-direction: row;
       align-items: flex-start;
       flex-direction: column;
     }

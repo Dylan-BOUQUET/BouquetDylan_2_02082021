@@ -1,6 +1,9 @@
 html, body {
-  padding: 1em;
   font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 1em;
 }
 
 header {
@@ -18,6 +21,7 @@ header {
 }
 
 .MenuItem {
+color: rgb(0, 0, 0);
 padding-top: 50px;
 border-bottom: none;
 border-top: #F2F2F2 3px solid;
@@ -32,12 +36,10 @@ padding-right: 4em;
 
 .MenuItem:hover{
 border-color: #0065FC;
-/*color:  #0065FC;*/
 }
 
 .MenuItem1:hover{
   border-color: #0065FC;
-  /*color:  #0065FC;*/
   }
 
 #RegistrationLink{

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   
     .titre1 {
       padding-top: 3em;
@@ -193,7 +193,7 @@
 
   .footer {
     display: flex;
-    margin-top: 350%;
+    margin-top: 65em;
     background: #f2f2f2;
     color: rgb(5, 5, 5);
     padding: 10%;

@@ -29,7 +29,6 @@ padding-right: 4em;
 }
 
 .MenuItem1 {
-  color: rgb(0, 0, 0);
   padding-top: 50px;
   border-bottom: none;
   border-top: #F2F2F2 3px solid;
@@ -44,6 +43,7 @@ border-color: #0065FC;
   }
 
 #RegistrationLink{
+color: rgb(0, 0, 0);
 padding-right: 10px;
 }
 

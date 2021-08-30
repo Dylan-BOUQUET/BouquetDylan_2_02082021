@@ -3,10 +3,12 @@ html, body {
 }
 
 body {
+  padding-top: 0;
   padding: 1em;
 }
 
 header {
+  
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -21,30 +23,35 @@ header {
 }
 
 .MenuItem {
-color: rgb(0, 0, 0);
+color:#0065FC ;
 padding-top: 50px;
 border-bottom: none;
-border-top: #F2F2F2 3px solid;
+border-top: #0065FC 3px solid;
 padding-right: 4em;
+text-decoration: none;
+font-weight: 100;
 }
 
+
 .MenuItem1 {
+  color: rgb(0, 0, 0);
   padding-top: 50px;
   border-bottom: none;
   border-top: #F2F2F2 3px solid;
+  text-decoration: none;
+  font-weight: 100;
   }
 
 .MenuItem:hover{
 border-color: #0065FC;
 }
 
-.MenuItem1:hover{
-  border-color: #0065FC;
-  }
+
 
 #RegistrationLink{
-color: rgb(0, 0, 0);
+color: #0065FC;
 padding-right: 10px;
+text-decoration: none;
 }
 
 .registration{
@@ -52,7 +59,8 @@ padding-top:53px;
 }
 
 .logo{
-padding-left: 45px; 
+padding-left: 45px;
+margin-top: 1em;
 }
 
 .flexCentre {
@@ -70,7 +78,6 @@ padding-left: 45px;
 .flexBetween {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .flexColumnAround {
@@ -136,6 +143,7 @@ padding-left: 45px;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
+  font-weight: 600;
 }
   
 .filtreTexteIcons:hover > .filtreTexte {
@@ -214,6 +222,10 @@ padding-left: 45px;
   background-color: #f2f2f2;
 }
 
+.fa-search:before {
+  display: none;
+  content: "\f002";
+}
 
 .sizeHebergements {
   flex: 2;

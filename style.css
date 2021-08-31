@@ -27,7 +27,7 @@ color:#0065FC ;
 padding-top: 50px;
 border-bottom: none;
 border-top: #0065FC 3px solid;
-padding-right: 4em;
+padding-right: 3em;
 text-decoration: none;
 font-weight: 100;
 }
@@ -36,8 +36,9 @@ font-weight: 100;
 .MenuItem1 {
   color: rgb(0, 0, 0);
   padding-top: 50px;
+  padding-right: 4em;
   border-bottom: none;
-  border-top: #F2F2F2 3px solid;
+  border-top: white 3px solid;
   text-decoration: none;
   font-weight: 100;
   }
@@ -255,6 +256,46 @@ margin-top: 1em;
 }
 
 .cubeHebergements {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubeHebergements1 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubeHebergements2 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubeHebergements3 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubeHebergements4 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubeHebergements5 {
   width: 30%;
   height: auto;
   background-color: white;

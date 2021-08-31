@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
 
     body {
       padding-top: 0;
@@ -33,7 +33,7 @@
     
     .menu {
     grid-area: bottom;
-    width: 100%;
+    width: 6em;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -44,6 +44,7 @@
     width: 100%;
     color: black;
     border-bottom: #0065FC 3px solid;
+    padding-left: 1em;
     }
 
     .MenuItem:hover {
@@ -62,7 +63,8 @@
       text-decoration: none;
       font-weight: 100;
       border-top: white;
-      padding-right: 1.3em;
+      padding-left: 5em;
+      width: 80%;
       }
 
     .registration {
@@ -140,6 +142,7 @@
 
     .cubeActivites {
       width: 100%;
+      margin-top: 2em;
     }
 
     .blocActivites2356 {
@@ -345,9 +348,13 @@
   border-radius: 15px 15px 0 0;
 }
 
+.cubeActivites2356 {
+  margin-top: 2em;
+}
+
   .footer {
     display: flex;
-    margin-top: 65em;
+    margin-top: 80em;
     background: #f2f2f2;
     color: rgb(5, 5, 5);
     padding: 10%;
